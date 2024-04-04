@@ -1,0 +1,53 @@
+Download 
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/REDzHUB/LibraryV2/main/redzLib")))()
+MakeWindow({
+
+the name
+
+Hub = {
+    Title = "Name",
+    Animation = "Name"
+  },
+  Key = {
+    KeySystem = false,
+    Title = "Key System",
+    Description = "",
+    KeyLink = "",
+    Keys = {"1234"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied to Clipboard"
+    }
+  } 
+})
+})
+
+
+MinimizeButton({
+  Image = "",
+  Size = {40, 40},
+  Color = Color3.fromRGB(10, 10, 10),
+  Corner = true,
+  Stroke = false,
+  StrokeColor = Color3.fromRGB(255, 0, 0)
+})
+
+Create a tab
+
+local Main = MakeTab({Name = "name"})
+
+local section = AddSection(Main, {"name"})
+
+construction button
+
+AddButton(Main, {
+  Name = "button",
+  Callback = function()
+    
+  end
+})
+
+
+the end
