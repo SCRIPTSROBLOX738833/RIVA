@@ -1,12 +1,8 @@
-Create a page ) 
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/REDzHUB/LibraryV2/main/redzLib")))()
 MakeWindow({
-
-the name)
-
-Hub = {
-    Title = "Name",
-    Animation = "Name"
+  Hub = {
+    Title = "Mu",
+    Animation = "by team New Discover"
   },
   Key = {
     KeySystem = false,
@@ -20,13 +16,12 @@ Hub = {
       Incorrectkey = "The key is incorrect",
       CopyKeyLink = "Copied to Clipboard"
     }
-  } 
-})
+  }
 })
 
 
 MinimizeButton({
-  Image = "",
+  Image = "rbxassetid://4483345998",
   Size = {40, 40},
   Color = Color3.fromRGB(10, 10, 10),
   Corner = true,
@@ -34,20 +29,13 @@ MinimizeButton({
   StrokeColor = Color3.fromRGB(255, 0, 0)
 })
 
-Create a tab)
 
-local Main = MakeTab({Name = "name"})
-
-local section = AddSection(Main, {"name"})
-
-construction button)
+local Main = MakeTab({Name = ""})
+local section = AddSection(Main, {""})
 
 AddButton(Main, {
-  Name = "button",
+  Name = "ت",
   Callback = function()
     
   end
 })
-
-
-the end
